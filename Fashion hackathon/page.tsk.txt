@@ -1,0 +1,18 @@
+export default function Home() {
+  return (
+    <main className="min-h-dvh grid place-items-center p-8">
+      <section className="max-w-xl text-center space-y-4">
+        <h1 className="text-3xl font-semibold tracking-tight">Fashion Hackathon Starter</h1>
+        <p className="text-muted-foreground">We are setting up core features: Looks, Store Locator, Mix & Match, Barcode Scan, and Dashboard.</p>
+        <nav className="grid gap-2 sm:grid-cols-2">
+          <a className="rounded-md border px-4 py-3 hover:bg-accent" href="/looks">Browse Looks</a>
+          <a className="rounded-md border px-4 py-3 hover:bg-accent" href="/stores">Store Locator</a>
+          <a className="rounded-md border px-4 py-3 hover:bg-accent" href="/mix">Mix & Match</a>
+          <a className="rounded-md border px-4 py-3 hover:bg-accent" href="/scan">Barcode Scan</a>
+          <a className="rounded-md border px-4 py-3 hover:bg-accent" href="/dashboard">Dashboard</a>
+          <a className="rounded-md border px-4 py-3 hover:bg-accent" href="/auth">Auth</a>
+        </nav>
+      </section>
+    </main>
+  );
+}
